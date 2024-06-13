@@ -1,0 +1,32 @@
+.App form {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, 50%, 30rem);
+  gap: 1rem;
+  margin: 1rem auto
+}
+
+.App form input,
+.App form button,
+.App form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem
+}
+
+.App ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.App ul li {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
